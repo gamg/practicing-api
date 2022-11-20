@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('auth/token', [AuthController::class, 'store']);
+Route::post('/auth/token', [AuthController::class, 'store']);
